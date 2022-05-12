@@ -89,3 +89,17 @@ choices, what you would have done if you had more time, obstacles you encountere
 any other points you’d like to bring up.
 
 May the force be with you.
+
+### Starting up the application
+Download the repo and go to the billogram folder (one above discountcode)
+Start a virtual environment (e.g in PyCharm or in the terminal)
+To install the requirements, including Django and Django REST framework, run:
+`pip install -r requirements.txt`
+To start the development server, run:
+`python manage.py runserver`
+
+To run the unit tests:
+`python manage.py test`
+
+The API documentation is available here:
+`http://localhost:8000/api/discountcode/docs/`
